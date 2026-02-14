@@ -8,10 +8,11 @@
 </head>
 <body>
     <div id = "root"></div>
+    <!-- what is crossorigin - it is an attribute used to handle CORS (Cross-Origin Resource Sharing) for the script without this attribute, the browser might block the script if it is loaded from a different origin -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-    <script src="app.js"></script>
+    <script type="module" src="./src/app.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,33 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "> A concise, practical roadmap for learning React.js from scratch and building real-world apps. Paste this into your GitHub `README.md` as your learning guide.",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhanasri-Parisam/React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhanasri-Parisam/React/issues"
+  },
+  "homepage": "https://github.com/Dhanasri-Parisam/React#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-icons": "^5.5.0",
+    "react-infinite-scroll-component": "^6.1.1",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.30.3",
+    "react-shimmer-effects": "^1.0.4"
+  }
+}
